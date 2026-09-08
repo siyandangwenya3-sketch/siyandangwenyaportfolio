@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Siyanda Ngwenya — Anime & Manga Sketch Artist" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Siyanda Ngwenya, an anime and manga sketch artist working between Johannesburg and Cape Town.",
+      },
+      { name: "author", content: "Siyanda Ngwenya" },
+      { property: "og:title", content: "Siyanda Ngwenya — Anime & Manga Sketch Artist" },
+      {
+        property: "og:description",
+        content:
+          "Pencil, ink and panels. Selected sketches, story and contact for Siyanda Ngwenya.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
