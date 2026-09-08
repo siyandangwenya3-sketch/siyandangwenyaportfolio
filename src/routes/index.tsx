@@ -9,6 +9,7 @@ import sketchCreature from "@/assets/sketch-creature.jpg";
 import sketchAction from "@/assets/sketch-action.jpg";
 
 export const Route = createFileRoute("/")({
+  staticData: { sitemap: true },
   head: () => ({
     meta: [
       { title: "Siyanda Ngwenya — Anime & Manga Sketch Artist" },
