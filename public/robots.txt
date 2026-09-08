@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://siyandangwenyaportfolio.lovable.app/sitemap.xml
